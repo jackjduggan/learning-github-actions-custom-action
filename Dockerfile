@@ -4,4 +4,4 @@ COPY script.sh /usr/local/bin/script.sh
 
 RUN ls -la /usr/local/bin/
 
-ENTRYPOINT [ "script.sh" ]
+ENTRYPOINT [ "/usr/local/bin/script.sh" ]
