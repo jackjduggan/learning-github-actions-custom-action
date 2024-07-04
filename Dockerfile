@@ -1,7 +1,4 @@
-FROM ALPINE
-
-RUN apk add --no-cache \
-  bash
+FROM ubuntu-latest
 
 COPY script.sh /usr/local/bin/script.sh
 
