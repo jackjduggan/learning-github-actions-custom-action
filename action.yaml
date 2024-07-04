@@ -1,0 +1,6 @@
+name: 'Hello World Custom Action'
+description: 'A custom action I made for the Learning Github Actions LinkedIn Learning Course'
+author: 'Jack Duggan'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
